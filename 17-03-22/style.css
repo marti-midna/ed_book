@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Exo 2', sans-serif;
+    color: white;
+    background-color: black;
+    font-size: 1.2rem;
+
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+h1 span {
+    color: red;
+}
+
+.line {
+    width: 20rem;
+    height: 0.2rem;
+    background-color: white;
+}
+
+p {
+    margin-top: 3%;
+    margin-bottom: 3%;
+}
+
+ul#dinamica {
+    margin-top: 3rem;
+    list-style: none;
+    padding: 0;
+}
+
+ul#dinamica li {
+    line-height: 2.2rem;
+    
+}
+
+#input-search {
+    all: unset;
+    border-bottom: 1px solid white;
+    background-color: black;
+    width: 20rem;
+
+}
+
+.filtra {
+    background-color: rgb(210, 1, 1);
+    margin-top: 2rem;
+    color: white;
+    
+}
+
+.btn:hover {
+    color: white;
+    background-color: red;
+    
+}

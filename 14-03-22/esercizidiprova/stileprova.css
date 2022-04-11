@@ -1,0 +1,16 @@
+.second {
+    display: none;
+}
+
+.change .second {
+    display: block;
+    background-color: aquamarine;
+}
+
+.change .first {
+    display: none;
+}
+
+.bgcolor {
+    background-color: bisque;
+}

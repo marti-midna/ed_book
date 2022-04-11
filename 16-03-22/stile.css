@@ -1,0 +1,44 @@
+#citspace {
+    margin-left: 20px;
+}
+
+ul  {
+    text-decoration: none;
+}
+
+input {
+    width:200px;
+    border: none;
+    border-bottom: 2px solid rgb(164, 164, 164);
+}
+
+input[type="text" i] {
+    padding: 1px 6px;
+    margin-left: 20px;
+}
+
+textarea {
+    margin-top: 20px;
+    width: 80%;
+    border: none;
+    background-color: rgb(240, 240, 240);
+}
+
+
+div#form{
+    margin-top: 40px;
+    margin-left: 20px;
+    
+};
+
+img {
+    padding: 20px;
+}
+
+.btn {
+    background-color: rgb(220, 220, 220);
+    border: none;
+    border-radius: 10px;
+    padding: 12px;
+    margin-top: 12px;
+}

@@ -1,0 +1,22 @@
+
+
+.change {
+    color: red;
+}
+
+/* last voglio nasconderlo al caricamento della pagina */
+.last {
+    display: none;
+}
+
+/* quando la classe last è dentro la classe change la voglio visibile*/
+
+.change .last {
+    display: block;
+}
+
+/* quando la classe first è dentro change la voglio nascosta */
+
+.change .first {
+    display: none;
+}

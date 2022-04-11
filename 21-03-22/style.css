@@ -1,0 +1,73 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+header {
+    background-color: rgb(61, 89, 248);
+}
+
+h1 {
+    padding: 1rem;
+    font-weight: bolder;
+    color: white;
+}
+
+h2 {
+    margin-top: 2rem;
+    padding: 0.5rem;
+    font-weight: bolder;
+    color: rgb(61, 89, 248);
+}
+
+input[id="add-nome"],
+input[id="add-cognome"],
+input[id="add-telefono"] {
+    all: unset;
+    border: 1px solid rgba(11, 147, 18, 0) ;
+    background-color: whitesmoke;
+    border-radius: 1rem;
+    height: 2rem;
+    padding-left: 1rem;
+    margin-top: 1rem;
+    width: 16rem;
+    color: black;
+    display: block;
+}
+
+button {
+    all: unset;
+    background-color:  rgb(61, 89, 248);
+    border-radius: 1rem;
+    height: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: white;
+    margin-top: 1rem;
+
+}
+
+button#deleteitem {
+    all: unset;
+    background-color:  rgb(206, 206, 206);
+    border-radius: 1rem;
+    height: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: black;
+    
+
+}
+
+section {
+    padding-left: 1rem;
+}
+
+h3 {
+    font-size: 1.3rem;
+}
+
+.item-card {
+    padding-left: 0.5rem;
+    padding-top: 2rem;
+}

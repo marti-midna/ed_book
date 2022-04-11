@@ -1,0 +1,118 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+header {
+    background-color: rgb(36, 36, 36);
+}
+
+h1 {
+    margin: 1rem;
+    font-weight: bolder;
+    color: white;
+}
+
+h2 {
+    font-weight: bold;
+    color: rgb(11, 179, 20);
+}
+
+span#h1{
+    color: rgb(13, 198, 23);
+}
+
+input[id="personaggio"],
+input[id="film"] {
+    all: unset;
+    border: 1px solid rgba(11, 147, 18, 0) ;
+    background-color: whitesmoke;
+    border-radius: 1rem;
+    height: 2rem;
+    padding-left: 1rem;
+    width: 16rem;
+    color: black;
+}
+
+input[id="user-search"] {
+    all: unset;
+    border: 1px solid rgba(11, 147, 18, 0) ;
+    background-color: whitesmoke;
+    border-radius: 1rem;
+    height: 2rem;
+    padding-left: 1rem;
+    width: 20rem;
+    color: black;
+}
+
+input:focus {
+    border: 1px solid rgb(11, 147, 18) ;
+}
+
+button {
+    all: unset;
+    background-color:  rgb(11, 147, 18);
+    border-radius: 1rem;
+    height: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: white;
+
+}
+
+button:hover {
+    background-color: rgb(11, 179, 20);
+}
+
+.padding {
+    padding-left: 2.5rem;
+}
+
+.item-card {
+    
+    width: 16rem;
+    display: inline-block;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: -1px 2px 5px #24242452;
+    transition: all 0.3s ease-out 0.1s;
+    
+}
+
+.item-card h4 {
+    font-weight: bold;
+}
+
+.item-card p {
+    margin: 0;
+}
+
+.item-card:hover {
+    background-color: rgb(13, 198, 23);
+    color: white;    
+}
+
+
+
+
+/**/
+
+@media (max-width: 576px) {
+    button#add-card{
+        display: block;
+        margin-top: 1rem;
+    }
+
+    input[id="personaggio"],
+    input[id="film"] {
+        margin-top: 1rem;
+    }
+
+    .padding {
+        padding-top: 1rem;
+    }
+
+
+}
