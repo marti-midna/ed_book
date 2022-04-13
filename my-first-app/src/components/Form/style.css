@@ -1,6 +1,10 @@
-.form_contattami {
+.divcampi{
     display: flex;
-    flex-direction: column;
-    gap: 20px;
-    align-items: center;
+    flex-flow: column wrap;
+    gap: 10px;
+    align-content: center;
+  }
+
+  label {
+    text-align: start;
   }

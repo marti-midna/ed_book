@@ -1,16 +1,16 @@
 import './style.css';
 
 export const Form = () => (
-        <form className='form_contattami'>
+        <form>
             <h3 className='title_components'>Contattami</h3>
-            <label for="">Oggetto</label>
-            <div className='oggetto'>
-                <input type="text" id="obj"></input>
-            </div>
 
-            <label for="">Messaggio</label>
-            <div className='messaggio'>
-                <textarea></textarea>
+            
+            <div className='divcampi'>
+                <label for="obj">Oggetto</label>
+                <input type="text" id="obj"></input>
+
+                <label for="testomess">Messaggio</label>
+                <textarea id="testomess"></textarea>
             </div>
         </form>
 );

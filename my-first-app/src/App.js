@@ -1,10 +1,11 @@
 import './App.css';
+
 import { Header } from './components/Header';
 import { Description } from './components/Description';
 import { Footer } from './components/Footer';
-import { Esperienze } from './components/Esperienze';
-import { Lingue } from './components/Lingue';
-import { Hobby } from './components/Hobby';
+import { VociMain } from './components/VociMain';
+
+
 import { Form } from './components/Form';
 
 function App() {
@@ -13,11 +14,11 @@ function App() {
       <Header></Header>
       <Description></Description>
       <div className='main'>
-        <Esperienze></Esperienze>
-        <Lingue></Lingue>
-        <Hobby></Hobby>
+        <VociMain title="Esperienze Lavorative"></VociMain>
+        <VociMain title="Lingue"></VociMain>
+        <VociMain title="Hobby"></VociMain>
       </div>
-      <div className='form_contattami'>
+      <div className='contattami'>
         <Form></Form>
       </div>
       <Footer></Footer>
