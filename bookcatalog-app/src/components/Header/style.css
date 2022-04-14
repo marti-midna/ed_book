@@ -1,0 +1,31 @@
+header {
+    padding: 1rem;
+    background-color: rgb(16, 13, 96);
+    color: white;
+    display: flex;
+    gap: 20px;
+    align-items: baseline;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 40px;
+    
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+.social_icons {
+    display: flex;
+    gap: 16px;
+}
