@@ -1,5 +1,7 @@
 import './style.css';
 
+
+
 export const BookCard = ({img, name , description}) => (
     <div className='bookcard'>
         <div className='card'>
@@ -8,9 +10,10 @@ export const BookCard = ({img, name , description}) => (
             </div>
             
             <div className='inner_container'>
-                <h3>{name}</h3>
-                <p>{description}</p>
-
+                <div className='testi_card'>
+                    <h3>{name}</h3>
+                    <p>{description}</p>
+                </div>
                 <div className='btn'>
                     <button className='btn_add'>
                         Aggiungi al carrello

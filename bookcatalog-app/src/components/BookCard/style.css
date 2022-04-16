@@ -7,16 +7,19 @@
 
 .bookcard {
     width: 300px;
-    height: 432px;
+    height: 470px;
     border-radius: 20px;
     display: flex;
     flex-direction: column;
     box-shadow: 4px 4px 4px rgb(207, 207, 207);
-    
-    
+    background-color: rgb(240, 240, 240);
 }
 .card {
-    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
 }
 
 .img_container img{
@@ -28,35 +31,50 @@
 }
 
 .inner_container {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(240, 240, 240);
     border-radius: 20px;
-    /* height: 100%; */
-    padding: 2rem;
-    position: absolute;
-    top: 60%;
-    background-color: white;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    max-width: 100%;
-    /* box-shadow: 4px 4px 4px rgb(207, 207, 207); */
+    padding: 0 1rem 2rem 1rem;
+    margin-top: -10.5rem;
+    transition: margin-top 0s;
 }
 
-.inner_container h3 {height: 50px;}
+.inner_container h3 {padding: 1.5rem 0;}
 
 .inner_container p {
-    height: 70%;
-    overflow: hidden; 
+    width: 100%;
     text-overflow: ellipsis;
-    white-space: nowrap; 
+    white-space: nowrap;
+    overflow: hidden;
     max-width: 100%;
     
 }
 
+.inner_container:hover p {
+    width: 100%;
+    white-space: normal;
+    height: 262px;
+    line-height: 20px;
+    /* transition: white-space 1s; */
+}
+
 .bookcard h3 {
     font-weight: bolder;
+    width: 100%;
+    height: 99px;
+}
+
+.inner_container:hover {
+    background-color: rgb(240, 240, 240);
+    width: 100%;
+    height: 100%;
+    margin-top: -406px;
+    transition: margin-top 1s;
 }
 
 .btn {
-    padding-top: 0.2rem;
+    padding-top: 3.2rem;
     align-items: center;
     height: 52px;
     display: flex;
@@ -72,3 +90,5 @@
     border-radius: 20px;
     font-weight: bold;
 }
+
+/* .inner_container:hover .btn {display: none}; */
